@@ -1,0 +1,18 @@
+<configuration>
+	<appSettings>   
+      <add key="ClientValidationEnabled" value="true"/>
+      <add key="UnobtrusiveJavaScriptEnabled" value="true"/>
+	</appSettings>
+<system.web>
+    <compilation debug="true" targetFramework="4.6.2" />
+    <httpRuntime targetFramework="4.6.2" />
+	<globalization culture="en-US"/>
+</system.web>
+<system.webServer>
+		<httpProtocol>
+		  <customHeaders>
+			<add name="X-UA-Compatible" value="IE=edge,chrome=1"/>
+		  </customHeaders>
+		</httpProtocol>
+</system.webServer>
+</configuration>
