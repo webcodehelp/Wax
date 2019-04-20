@@ -10,7 +10,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>Asp.net MVC BootStrap jQuery EntityFramework</tags>
     <dependencies>
-	  <dependency id="BootStrap" version="[3.3.7,4.0)" />
+	  <dependency id="BootStrap" version="[4.3.1,5.0)" />
 	  <dependency id="jQuery" version="[3.1.1,4.0)" />
 	  <dependency id="EntityFramework" version="[6.1.3,7.0)" />
 	  <dependency id="Microsoft.Aspnet.MVC" version="[5.2.3,6.0)" />
